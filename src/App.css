@@ -1,0 +1,71 @@
+/* App.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffe6f2; /* baby pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(255, 182, 193, 0.4);
+  border: 2px solid #ffb6c1;
+}
+
+h1 {
+  text-align: center;
+  color: #ff7aa2;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1.5px solid #ffb6c1;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff7aa2;
+  box-shadow: 0 0 6px rgba(255, 122, 162, 0.5);
+}
+
+button {
+  width: 100%;
+  background-color: #ff7aa2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff9dbb;
+}
+
+.success {
+  text-align: center;
+  color: #ff4081;
+  font-weight: 600;
+  margin-top: 15px;
+}
